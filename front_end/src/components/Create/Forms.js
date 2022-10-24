@@ -4,8 +4,8 @@ import {mint} from "../../web3utils/connect";
 
 const Forms = () => {
   const onFinish = (values) => {
-    const key = '7a333580d9d43ad228fc';
-    const secret = 'da0380b0a2894b36f73fa8f0c231df8f31319efcbdd9d3d2837666e37048bbfa';
+    const key = 'your key';
+    const secret = 'your secret';
     var fileData = localStorage.getItem("fileData")
     var user = localStorage.getItem("user")
     values.url = "https://gateway.pinata.cloud/ipfs/" + fileData
